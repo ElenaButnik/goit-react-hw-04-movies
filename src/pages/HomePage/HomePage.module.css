@@ -2,3 +2,15 @@
     margin-left: 40px;
     text-transform: uppercase;
 }
+.link{
+    color: #d2d9df;
+    text-decoration: none;
+    transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link:hover,
+.link:focus {
+  color: rgb(21, 16, 44);;
+}
+.list{
+    list-style: none;
+}
